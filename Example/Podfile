@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GenderClassifierFor10_Example' do
+  pod 'GenderClassifierFor10', :path => '../'
+
+  target 'GenderClassifierFor10_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
